@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICC T20 World Cup 2026 | Timings, Schedule & Key Players</title>
+    <meta name="description"
+        content="Get the latest schedule, match timings, and key player profiles for the ICC Men's T20 World Cup 2026 hosted by India and Sri Lanka.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">T20WC <span>2026</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#venues">Venues</a></li>
+                <li><a href="#players">Key Players</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="subtitle">India & Sri Lanka | Feb 7 - Mar 8</span>
+            <h1 class="glitch" data-text="ICC MEN'S T20">ICC MEN'S T20</h1>
+            <h1>WORLD CUP 2026</h1>
+            <p>Experience the thrill. 20 Teams. 55 Matches. 1 Champion.</p>
+            <div class="hero-cta">
+                <a href="#schedule" class="btn btn-primary">View Schedule <i class='bx bx-calendar-event'></i></a>
+                <a href="#players" class="btn btn-secondary">Star Players <i class='bx bx-star'></i></a>
+            </div>
+        </div>
+        <!-- Scroll Indicator -->
+        <div class="scroll-down">
+            <span>Scroll</span>
+            <i class='bx bx-chevrons-down'></i>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats-bar">
+        <div class="stat-item">
+            <i class='bx bx-group'></i>
+            <div>
+                <h3>20</h3>
+                <p>Teams</p>
+            </div>
+        </div>
+        <div class="stat-item">
+            <i class='bx bx-cricket-ball'></i>
+            <div>
+                <h3>55</h3>
+                <p>Matches</p>
+            </div>
+        </div>
+        <div class="stat-item">
+            <i class='bx bx-map-pin'></i>
+            <div>
+                <h3>8</h3>
+                <p>Venues</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule-section section-padding">
+        <div class="section-header">
+            <h2 class="section-title">Tournament <span>Schedule</span></h2>
+            <p>Key fixtures and timings you don't want to miss.</p>
+        </div>
+
+        <div class="filter-controls">
+            <button class="filter-btn active" data-filter="all">All Matches</button>
+            <button class="filter-btn" data-filter="india">India</button>
+            <button class="filter-btn" data-filter="pakistan">Pakistan</button>
+            <button class="filter-btn" data-filter="knockout">Knockouts</button>
+        </div>
+
+        <div class="schedule-grid">
+            <!-- Match Cards -->
+            <div class="match-card" data-team="india">
+                <div class="match-date">
+                    <span class="day">07</span>
+                    <span class="month">Feb</span>
+                </div>
+                <div class="match-details">
+                    <div class="teams">
+                        <span class="team-name">India</span>
+                        <span class="vs">vs</span>
+                        <span class="team-name">USA</span>
+                    </div>
+                    <div class="time-venue">
+                        <p><i class='bx bx-time-five'></i> 19:30 IST / 14:00 GMT</p>
+                        <p><i class='bx bx-map'></i> Wankhede Stadium, Mumbai</p>
+                    </div>
+                </div>
+                <div class="match-type">Opening Match</div>
+            </div>
+
+            <div class="match-card highlighted" data-team="india pakistan">
+                <div class="match-date">
+                    <span class="day">15</span>
+                    <span class="month">Feb</span>
+                </div>
+                <div class="match-details">
+                    <div class="teams">
+                        <span class="team-name">India</span>
+                        <span class="vs">vs</span>
+                        <span class="team-name">Pakistan</span>
+                    </div>
+                    <div class="time-venue">
+                        <p><i class='bx bx-time-five'></i> 19:30 IST / 14:00 GMT</p>
+                        <p><i class='bx bx-map'></i> R. Premadasa Stadium, Colombo</p>
+                    </div>
+                </div>
+                <div class="match-type">Blockbuster</div>
+            </div>
+
+            <!-- Group Stage Placeholder -->
+            <div class="match-card" data-team="all">
+                <div class="match-date">
+                    <span class="day">07-20</span>
+                    <span class="month">Feb</span>
+                </div>
+                <div class="match-details">
+                    <div class="teams">
+                        <span class="team-name">Group Stage</span>
+                    </div>
+                    <div class="time-venue">
+                        <p><i class='bx bx-info-circle'></i> Round Robin Format</p>
+                        <p><i class='bx bx-map'></i> Across 8 Venues</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="match-card" data-team="knockout">
+                <div class="match-date">
+                    <span class="day">21-01</span>
+                    <span class="month">Feb-Mar</span>
+                </div>
+                <div class="match-details">
+                    <div class="teams">
+                        <span class="team-name">Super Eight</span>
+                    </div>
+                    <div class="time-venue">
+                        <p><i class='bx bx-trophy'></i> Top 8 Teams</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="match-card" data-team="knockout">
+                <div class="match-date">
+                    <span class="day">04/05</span>
+                    <span class="month">Mar</span>
+                </div>
+                <div class="match-details">
+                    <div class="teams">
+                        <span class="team-name">Semi-Finals</span>
+                    </div>
+                    <div class="time-venue">
+                        <p><i class='bx bx-time-five'></i> TBA</p>
+                        <p><i class='bx bx-map'></i> Mumbai / Kolkata / Colombo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="match-card final-match" data-team="knockout">
+                <div class="match-date">
+                    <span class="day">08</span>
+                    <span class="month">Mar</span>
+                </div>
+                <div class="match-details">
+                    <div class="teams">
+                        <span class="team-name">The Final</span>
+                    </div>
+                    <div class="time-venue">
+                        <p><i class='bx bx-time-five'></i> 19:30 IST</p>
+                        <p><i class='bx bx-map'></i> Narendra Modi Stadium, Ahmedabad / Colombo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Players Section -->
+    <section id="players" class="players-section section-padding dark-section">
+        <div class="section-header">
+            <h2 class="section-title">Players to <span>Watch</span></h2>
+            <p>The global superstars expected to light up the tournament.</p>
+        </div>
+
+        <div class="players-slider">
+            <!-- Player 1 -->
+            <div class="player-card">
+                <div class="player-img-wrapper">
+                    <img src="assets/images/head.png" alt="Travis Head" class="player-img">
+                    <div class="glass-info">
+                        <h3>Travis Head</h3>
+                        <p>Australia - Batter</p>
+                    </div>
+                </div>
+                <div class="player-stats">
+                    <div class="stat"><span>Role</span> Top Order</div>
+                    <div class="stat"><span>Style</span> Left Hand</div>
+                </div>
+            </div>
+
+            <!-- Player 2 -->
+            <div class="player-card">
+                <div class="player-img-wrapper">
+                    <img src="assets/images/salt.png" alt="Phil Salt" class="player-img">
+                    <div class="glass-info">
+                        <h3>Phil Salt</h3>
+                        <p>England - BatterWK</p>
+                    </div>
+                </div>
+                <div class="player-stats">
+                    <div class="stat"><span>Role</span> Opener</div>
+                    <div class="stat"><span>Style</span> Right Hand</div>
+                </div>
+            </div>
+
+            <!-- Player 3 -->
+            <div class="player-card">
+                <div class="player-img-wrapper">
+                    <img src="assets/images/rashid.png" alt="Rashid Khan" class="player-img">
+                    <div class="glass-info">
+                        <h3>Rashid Khan</h3>
+                        <p>Afghanistan - Bowler</p>
+                    </div>
+                </div>
+                <div class="player-stats">
+                    <div class="stat"><span>Role</span> Spinner</div>
+                    <div class="stat"><span>Style</span> Right Arm Leg</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>T20WC <span>2026</span></h2>
+                <p>The ultimate destination for T20 Cricket World Cup 2026 updates.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#venues">Venues</a></li>
+                    <li><a href="#players">Players</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Unofficial T20 World Cup Tracker. Created by Hassan Shahzad.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
